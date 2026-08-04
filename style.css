@@ -384,3 +384,50 @@ z-index:999;
 transform:scale(1.1);
 background:#1ebe5d;
 }
+/* PORQUE ELEGIRNOS */
+
+.porque{
+
+padding:90px 8%;
+background:#fafafa;
+
+}
+
+.porque h2{
+
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+
+}
+
+.porque-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.porque-card{
+
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+
+}
+
+.porque-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.porque-card h3{
+
+color:#d60000;
+margin-bottom:15px;
+
+}
