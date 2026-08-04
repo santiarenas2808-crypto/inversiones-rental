@@ -272,3 +272,59 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.catalogo{
+    padding:80px 10%;
+    text-align:center;
+    background:#f7f7f7;
+}
+
+.catalogo h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.productos{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.producto{
+    background:white;
+    width:320px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.producto:hover{
+    transform:translateY(-10px);
+}
+
+.producto img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.producto h3{
+    margin:20px 0 10px;
+}
+
+.producto p{
+    padding:0 20px;
+    color:#555;
+}
+
+.producto a{
+    display:inline-block;
+    margin:20px;
+    background:#d60000;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+}
