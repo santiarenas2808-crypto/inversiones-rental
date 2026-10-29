@@ -4,8 +4,8 @@ const products=[
 {id:"p1",cat:"plana",name:"Máquina plana JACK F6",brand:"JACK",desc:"Máquina plana industrial. Modelo según la foto recibida.",img:"",real:true},
 {id:"p2",cat:"plana",name:"Máquina plana JINTHEX",brand:"JINTHEX",desc:"Máquina plana industrial. Modelo exacto por confirmar.",img:"",real:true},
 {id:"r1",cat:"recubridora",name:"Recubridora industrial",brand:"SIRUBA",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"},
-{id:"r2",cat:"recubridora",name:"Recubridora industrial",brand:"JACK",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=800&q=80"},
-{id:"r3",cat:"recubridora",name:"Recubridora industrial",brand:"JUKI",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"},
+{id:"r2",cat:"recubridora",name:"Recubridora industrial",brand:"JACK",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:""},
+{id:"r3",cat:"recubridora",name:"Recubridora industrial",brand:"JUKI",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:""},
 {id:"f1",cat:"fileteadora",name:"Fileteadora industrial",brand:"JACK",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=800&q=80"},
 {id:"f2",cat:"fileteadora",name:"Fileteadora industrial",brand:"SIRUBA",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"},
 {id:"f3",cat:"fileteadora",name:"Fileteadora industrial",brand:"JUKI",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=800&q=80"}];
