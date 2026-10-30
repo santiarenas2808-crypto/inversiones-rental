@@ -1,7 +1,7 @@
 const WHATSAPP="573204632683";
 // Recubridoras y fileteadoras son productos de ejemplo hasta confirmar inventario real.
 const products=[
-{id:"p1",cat:"plana",name:"Máquina plana JACK F6",brand:"JACK",desc:"Máquina plana industrial. Modelo según la foto recibida.",img:"assets/plana-jack-f6.jpg",real:true,
+{id:"p1",cat:"plana",name:"Máquina plana JACK F6",brand:"JACK",desc:"Máquina plana industrial. Modelo según la foto recibida.",img:"assets/plana-jack-f6.jpg", real:true,
 {id:"p2",cat:"plana",name:"Máquina plana JINTHEX",brand:"JINTHEX",desc:"Máquina plana industrial. Modelo exacto por confirmar.",img:"",real:true},
 {id:"r1",cat:"recubridora",name:"Recubridora industrial",brand:"SIRUBA",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:"https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"},
 {id:"r2",cat:"recubridora",name:"Recubridora industrial",brand:"JACK",desc:"Ejemplo de catálogo. Pregunta por el modelo disponible.",img:""},
