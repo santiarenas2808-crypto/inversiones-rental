@@ -33,28 +33,30 @@ const products = [
   {
     id: "r1",
     cat: "recubridora",
-    name: "Recubridora industrial",
-    brand: "SIRUBA",
+    name: "Recubridora Kingter",
+    brand: "KINGTER",
     desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    img: "assets/recubridora-kingter.jpg", 
+    real: true
   },
   {
     id: "r2",
     cat: "recubridora",
-    name: "Recubridora industrial",
-    brand: "Jack K7",
+    name: "Recubridora Jack K7",
+    brand: "JACK",
     desc: "Consulta por disponibilidad y modelo.",
-    img: "assets/
-recubridora-jack-k-7.jpg", 
+    img: "assets/recubridora-jack-k-7.jpg", 
     real: true
   },
   {
     id: "r3",
     cat: "recubridora",
-    name: "Recubridora industrial",
-    brand: "JUKI",
+    name: "Recubridora Jinthex",
+    brand: "JINTHEX",
     desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    img: "assets/recubridora-jinthex.jpg",
+
+     real: true
   },
   {
     id: "f1",
