@@ -77,7 +77,7 @@ const products = [
     name: "Fileteadora JACK C5C",
     brand: "JACK",
     desc: "Máquina fileteadora industrial.",
-    img: "assets/fileteadora-jack-c5c.jpg",
+    img: "assets/filetiadora-jack-c5c.jpg",
     real: true
   },
   {
@@ -86,7 +86,7 @@ const products = [
     name: "Fileteadora KINGTER",
     brand: "KINGTER",
     desc: "Máquina fileteadora industrial.",
-    img: "assets/fileteadora-kingter.jpg",
+    img: "assets/filetiadora-kingter.jpg",
     real: true
   }
 ];
