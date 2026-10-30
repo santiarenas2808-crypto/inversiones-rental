@@ -3,6 +3,7 @@ const WHATSAPP = "573204632683";
 
 // Catálogo de Inversiones Rental Máquinas
 const products = [
+  // MÁQUINAS PLANAS
   {
     id: "p1",
     cat: "plana",
@@ -30,57 +31,63 @@ const products = [
     img: "assets/plana-kingter-kt-07.jpg",
     real: true
   },
+
+  // MÁQUINAS RECUBRIDORAS
   {
     id: "r1",
     cat: "recubridora",
-    name: "Recubridora Kingter",
-    brand: "KINGTER",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: "assets/recubridora-kingter.jpg", 
+    name: "Recubridora JACK K-7",
+    brand: "JACK",
+    desc: "Máquina recubridora industrial.",
+    img: "assets/recubridora-jack-k-7.jpg",
     real: true
   },
   {
     id: "r2",
     cat: "recubridora",
-    name: "Recubridora Jack K7",
-    brand: "JACK",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: "assets/recubridora-jack-k-7.jpg", 
+    name: "Recubridora JINTHEX",
+    brand: "JINTHEX",
+    desc: "Máquina recubridora industrial.",
+    img: "assets/recubridora-jinthex.jpg",
     real: true
   },
   {
     id: "r3",
     cat: "recubridora",
-    name: "Recubridora Jinthex",
-    brand: "JINTHEX",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: "assets/recubridora-jinthex.jpg",
-
-     real: true
+    name: "Recubridora KINGTER",
+    brand: "KINGTER",
+    desc: "Máquina recubridora industrial.",
+    img: "assets/recubridora-kingter.jpg",
+    real: true
   },
+
+  // MÁQUINAS FILETEADORAS
   {
     id: "f1",
     cat: "fileteadora",
-    name: "Fileteadora industrial",
+    name: "Fileteadora JACK E5",
     brand: "JACK",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    desc: "Máquina fileteadora industrial.",
+    img: "assets/fileteadora-jack-e5.jpg",
+    real: true
   },
   {
     id: "f2",
     cat: "fileteadora",
-    name: "Fileteadora industrial",
-    brand: "SIRUBA",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    name: "Fileteadora JACK C5C",
+    brand: "JACK",
+    desc: "Máquina fileteadora industrial.",
+    img: "assets/fileteadora-jack-c5c.jpg",
+    real: true
   },
   {
     id: "f3",
     cat: "fileteadora",
-    name: "Fileteadora industrial",
-    brand: "JUKI",
-    desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    name: "Fileteadora KINGTER",
+    brand: "KINGTER",
+    desc: "Máquina fileteadora industrial.",
+    img: "assets/fileteadora-kingter.jpg",
+    real: true
   }
 ];
 
@@ -109,13 +116,15 @@ function render() {
     ? shown.map(p => `
       <article class="card">
         <div class="photo">
-          ${p.img
-            ? `<img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.remove()">`
-            : '<span class="placeholder">🧵</span>'
-          }
+          <img
+            src="${p.img}"
+            alt="${p.name}"
+            loading="lazy"
+            onerror="this.remove()"
+          >
         </div>
         <div class="info">
-          <span class="tag">${label(p.cat)} · ${p.img ? "Foto del producto" : "Foto pendiente"}</span>
+          <span class="tag">${label(p.cat)} · Foto del producto</span>
           <h3>${p.name}</h3>
           <b>${p.brand}</b>
           <p>${p.desc}</p>
