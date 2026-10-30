@@ -24,10 +24,10 @@ const products = [
 {
   id: "p3",
   cat: "plana",
-  name: "Máquina plana KINGTER KT-20U53D",
+  name: "Máquina plana KINGTER KT-07",
   brand: "KINGTER",
   desc: "Máquina plana industrial.",
-  img: "assets/plana-kingter-kt-20u53d.jpg",
+  img: "assets/plana-kingter-kt-07.jpg",
   real: true
 },
   {
