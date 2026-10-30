@@ -12,24 +12,24 @@ const products = [
     img: "assets/plana-jack-f6.jpg",
     real: true
   },
- {
-  id: "p2",
-  cat: "plana",
-  name: "Máquina plana JINTHEX JN-ASH",
-  brand: "JINTHEX",
-  desc: "Máquina plana industrial.",
-  img: "assets/plana-jinthex-jn-ash.jpg",
-  real: true
-},
-{
-  id: "p3",
-  cat: "plana",
-  name: "Máquina plana KINGTER KT-07",
-  brand: "KINGTER",
-  desc: "Máquina plana industrial.",
-  img: "assets/plana-kingter-kt-07.jpg",
-  real: true
-},
+  {
+    id: "p2",
+    cat: "plana",
+    name: "Máquina plana JINTHEX JS-H",
+    brand: "JINTHEX",
+    desc: "Máquina plana industrial.",
+    img: "assets/plana-jinthex-jn-ash.jpg",
+    real: true
+  },
+  {
+    id: "p3",
+    cat: "plana",
+    name: "Máquina plana KINGTER KT-20U53D",
+    brand: "KINGTER",
+    desc: "Máquina plana industrial.",
+    img: "assets/plana-kingter-kt-20u53d.jpg",
+    real: true
+  },
   {
     id: "r1",
     cat: "recubridora",
