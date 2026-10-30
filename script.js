@@ -12,15 +12,15 @@ const products = [
     img: "assets/plana-jack-f6.jpg",
     real: true
   },
-  {
-    id: "p2",
-    cat: "plana",
-    name: "Máquina plana JINTHEX",
-    brand: "JINTHEX",
-    desc: "Máquina plana industrial. Modelo exacto por confirmar.",
-    img: "",
-    real: true
-  },
+ {
+  id: "p2",
+  cat: "plana",
+  name: "Máquina plana JINTHEX JN-ASH",
+  brand: "JINTHEX",
+  desc: "Máquina plana industrial.",
+  img: "assets/plana-jinthex-jn-ash.jpg",
+  real: true
+},
   {
     id: "r1",
     cat: "recubridora",
