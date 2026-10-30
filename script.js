@@ -42,9 +42,11 @@ const products = [
     id: "r2",
     cat: "recubridora",
     name: "Recubridora industrial",
-    brand: "JACK",
+    brand: "Jack K7",
     desc: "Consulta por disponibilidad y modelo.",
-    img: ""
+    img: "assets/
+recubridora-jack-k-7.jpg", 
+    real: true
   },
   {
     id: "r3",
