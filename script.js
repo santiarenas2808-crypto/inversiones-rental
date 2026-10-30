@@ -21,6 +21,15 @@ const products = [
   img: "assets/plana-jinthex-jn-ash.jpg",
   real: true
 },
+{
+  id: "p3",
+  cat: "plana",
+  name: "Máquina plana KINGTER KT-20U53D",
+  brand: "KINGTER",
+  desc: "Máquina plana industrial.",
+  img: "assets/plana-kingter-kt-20u53d.jpg",
+  real: true
+},
   {
     id: "r1",
     cat: "recubridora",
